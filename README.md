@@ -1,122 +1,115 @@
-# 🎓 Smart Campus Utility App
+# Smart Campus Utility App
 
-> Organize. Manage. Simplify Campus Life.
+A modern full-stack Smart Campus Utility App designed to simplify campus life by providing students with essential academic and utility features through a clean and responsive interface.
 
-A full-stack Next.js 14 web application for managing daily college activities — built with TypeScript, Tailwind CSS, and localStorage for persistent data.
+## 🚀 Features
 
----
+* 🔐 User Authentication (Login)
+* 📅 Attendance Management
+* 📝 Notes Management
+* 📢 Notices & Announcements
+* ✅ Task Management
+* 📖 Timetable
+* 👤 Student Profile
+* 📱 Responsive User Interface
+* 🛡️ Protected Routes using Authentication Guard
 
-## ✨ Features
+## 🛠️ Tech Stack
 
-- **Dashboard** — Overview of tasks, attendance, schedule & notices
-- **Timetable** — Add/view/delete class schedule by day
-- **Task Tracker** — Manage assignments with priorities & due dates
-- **Attendance** — Mark and visualize attendance per subject with charts
-- **Notice Board** — Post and view academic/event/general notices
-- **Notes** — Create, pin, edit and organize personal notes
-- **Profile** — Manage student profile details
-- **Dark / Light Mode** — Toggle with one click
-- **Responsive** — Works on mobile & desktop
+### Frontend
 
----
+* Next.js
+* React.js
+* TypeScript
+* Tailwind CSS
 
-## 🚀 Running Locally (Windows)
+### State Management
 
-### Prerequisites
-- **Node.js** v18+ — Download from https://nodejs.org
+* Zustand
 
-### Steps
+### Backend
+
+* Node.js (if connected)
+* REST API
+
+### Database
+
+* PlanetScale / MySQL (if configured)
+
+### Deployment
+
+* Vercel
+
+## 📂 Project Structure
+
+```text
+src/
+ ├── app/
+ ├── components/
+ ├── lib/
+ ├── styles/
+ └── ...
+```
+
+## ⚙️ Installation
+
+Clone the repository
 
 ```bash
-# 1. Extract the zip, open Command Prompt in the folder
-cd smart-campus
+git clone https://github.com/harshkumar6969/Smart-Campus-Utility-App.git
+```
 
-# 2. Install dependencies
+Go to the project directory
+
+```bash
+cd Smart-Campus-Utility-App
+```
+
+Install dependencies
+
+```bash
 npm install
+```
 
-# 3. Start development server
+Run the development server
+
+```bash
 npm run dev
 ```
 
-Open **http://localhost:3000** in your browser.
+Open your browser and visit
 
----
-
-## ☁️ Deploying to Vercel
-
-### Option A — Vercel CLI (Recommended)
-
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# In the project folder
-vercel
-
-# Follow the prompts:
-# - Link to existing project? No
-# - Project name: smart-campus
-# - Directory: ./
-# - Override settings? No
+```text
+http://localhost:3000
 ```
 
-Your app will be live at `https://smart-campus-xxx.vercel.app`
+## 📸 Screenshots
 
-### Option B — GitHub + Vercel Dashboard
+Add screenshots of your application here.
 
-1. Push this folder to a GitHub repository
-2. Go to https://vercel.com → New Project
-3. Import your GitHub repo
-4. Click **Deploy** — no extra config needed!
+Example:
 
----
+* Login Page
+* Dashboard
+* Attendance
+* Notes
+* Timetable
 
-## 🛠 Tech Stack
+## 🎯 Future Improvements
 
-| Layer | Technology |
-|-------|-----------|
-| Framework | Next.js 14 (App Router) |
-| Language | TypeScript |
-| Styling | Tailwind CSS |
-| Charts | Recharts |
-| Icons | Lucide React |
-| Storage | localStorage (client-side) |
-| Deployment | Vercel |
+* AI-powered chatbot
+* Push notifications
+* Online assignments
+* Student-teacher messaging
+* Cloud file storage
+* Analytics dashboard
 
----
+## 👨‍💻 Author
 
-## 📁 Project Structure
+**Harsh Kumar**
 
-```
-smart-campus/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx         # Root layout
-│   │   ├── page.tsx           # Dashboard
-│   │   ├── timetable/page.tsx
-│   │   ├── tasks/page.tsx
-│   │   ├── attendance/page.tsx
-│   │   ├── notices/page.tsx
-│   │   ├── notes/page.tsx
-│   │   └── profile/page.tsx
-│   ├── components/
-│   │   └── layout/
-│   │       ├── Sidebar.tsx
-│   │       └── TopBar.tsx
-│   ├── lib/
-│   │   └── store.tsx          # Global state (React Context + localStorage)
-│   └── styles/
-│       └── globals.css
-├── next.config.js
-├── tailwind.config.js
-├── tsconfig.json
-└── package.json
-```
+GitHub: https://github.com/harshkumar6969
 
 ---
 
-## 📝 Notes
-
-- All data is stored in your browser's **localStorage** — no backend or database needed
-- Data persists between page refreshes but is browser/device-specific
-- The app works completely offline after the first load
+⭐ If you like this project, consider giving it a star on GitHub.
