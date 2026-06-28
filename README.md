@@ -29,12 +29,12 @@ A modern full-stack Smart Campus Utility App designed to simplify campus life by
 
 ### Backend
 
-* Node.js (if connected)
+* Node.js
 * REST API
 
 ### Database
 
-* PlanetScale / MySQL (if configured)
+* PlanetScale / MySQL 
 
 ### Deployment
 
