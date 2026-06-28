@@ -83,17 +83,6 @@ Open your browser and visit
 http://localhost:3000
 ```
 
-## 📸 Screenshots
-
-Add screenshots of your application here.
-
-Example:
-
-* Login Page
-* Dashboard
-* Attendance
-* Notes
-* Timetable
 
 ## 🎯 Future Improvements
 
