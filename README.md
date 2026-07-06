@@ -56,7 +56,7 @@ src/
 Clone the repository
 
 ```bash
-git clone https://github.com/harshkumar6969/Smart-Campus-Utility-App.git
+git clone https://github.com/your username/Smart-Campus-Utility-App.git
 ```
 
 Go to the project directory
