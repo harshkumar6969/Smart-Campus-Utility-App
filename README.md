@@ -1,109 +1,233 @@
-# Smart Campus Utility App
+# 📚 Smart Campus Utility App
 
-A modern full-stack Smart Campus Utility App designed to simplify campus life by providing students with essential academic and utility features through a clean and responsive interface.
+A **Full Stack Smart Campus Utility Application** built to simplify student life by providing a centralized platform for managing daily academic activities. The application allows students to organize their schedules, track attendance, manage assignments, receive important notices, and maintain personal notes—all in one place.
+
+---
 
 ## 🚀 Features
 
-* 🔐 User Authentication (Login)
-* 📅 Attendance Management
-* 📝 Notes Management
-* 📢 Notices & Announcements
-* ✅ Task Management
-* 📖 Timetable
-* 👤 Student Profile
-* 📱 Responsive User Interface
-* 🛡️ Protected Routes using Authentication Guard
+### 🔐 User Authentication
+- Secure Sign Up & Login
+- JWT Authentication
+- Password Encryption
 
-## 🛠️ Tech Stack
+### 📅 Timetable Management
+- Add, Edit & Delete Class Schedules
+- Daily & Weekly Timetable View
 
-### Frontend
+### ✅ Task & Assignment Tracker
+- Create and Manage Tasks
+- Set Due Dates
+- Mark Tasks as Completed
+- Track Progress
 
-* Next.js
-* React.js
-* TypeScript
-* Tailwind CSS
+### 📊 Attendance Tracker
+- Record Subject-wise Attendance
+- View Overall Attendance Percentage
 
-### State Management
+### 📢 Notice Board
+- View College Announcements
+- Important Academic Updates
 
-* Zustand
+### 📝 Notes Section
+- Create Personal Notes
+- Edit & Delete Notes
+- Organize Notes Efficiently
 
-### Backend
+### 👤 Profile Management
+- Update Personal Information
+- Change Password
+- Manage Account Details
 
-* Node.js
-* REST API
+### 📱 Responsive Design
+- Fully Responsive for Desktop, Tablet & Mobile Devices
 
-### Database
+---
 
-* PlanetScale / MySQL 
+## ✨ Bonus Features
 
-### Deployment
+- 🌙 Dark / Light Mode
+- 🔔 Push Notifications
+- 📅 Calendar View
+- 📈 Attendance Analytics
+- 📂 File & Notes Attachments
+- ⏰ Task Reminders
 
-* Vercel
+---
 
-## 📂 Project Structure
+# 🛠 Tech Stack
+
+## Frontend
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
+
+## Backend
+- Node.js
+- Express.js
+- REST API
+
+## Database
+- MongoDB
+
+## Authentication
+- JWT (JSON Web Token)
+
+## Validation
+- Zod
+
+## File Storage
+- Cloudinary
+
+---
+
+# 📂 Folder Structure
 
 ```text
-src/
- ├── app/
- ├── components/
- ├── lib/
- ├── styles/
- └── ...
+Smart-Campus-Utility-App/
+│
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   └── public/
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── config/
+│   └── utils/
+│
+├── package.json
+├── README.md
+└── .env
 ```
 
-## ⚙️ Installation
+---
 
-Clone the repository
+# ⚙️ Installation
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/your username/Smart-Campus-Utility-App.git
+git clone https://github.com/yourusername/smart-campus-utility-app.git
 ```
 
-Go to the project directory
+## Move into Project
 
 ```bash
-cd Smart-Campus-Utility-App
+cd smart-campus-utility-app
 ```
 
-Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server
+## Create Environment Variables
+
+Create a `.env` file in the backend directory and add:
+
+```env
+PORT=5000
+
+MONGODB_URI=your_mongodb_connection_string
+
+JWT_SECRET=your_secret_key
+
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+
+CLOUDINARY_API_KEY=your_api_key
+
+CLOUDINARY_API_SECRET=your_api_secret
+```
+
+## Run Backend
+
+```bash
+npm start
+```
+
+## Run Frontend
 
 ```bash
 npm run dev
 ```
 
-Open your browser and visit
+The application will run locally at:
 
-```text
-http://localhost:3000
+```
+Frontend : http://localhost:3000
+
+Backend : http://localhost:5000
 ```
 
+---
 
-## 🎯 Future Improvements
+# 📸 Screenshots
 
-* AI-powered chatbot
-* Push notifications
-* Online assignments
-* Student-teacher messaging
-* Cloud file storage
-* Analytics dashboard
+Add screenshots of the following pages:
 
-## 👨‍💻 Author
+- Login Page
+- Dashboard
+- Timetable
+- Attendance Tracker
+- Task Manager
+- Notes Section
+- Notice Board
+- Profile Page
+
+---
+
+# 🎯 Future Improvements
+
+- AI Study Assistant
+- QR Code Attendance
+- Chat System
+- Email Notifications
+- Admin Dashboard
+- Multi-College Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the Repository
+2. Create a New Branch
+3. Commit Your Changes
+4. Push to Your Branch
+5. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# 👨‍💻 Developer
 
 **Harsh Kumar**
+
+B.Tech Computer Science Engineering
+
+CGC Jhanjeri, Mohali
 
 GitHub: https://github.com/harshkumar6969
 
 ---
 
-⭐ If you like this project, consider giving it a star on GitHub.
----
+# 🙏 Acknowledgements
 
-## 📄 License
+This project was developed as part of the **ReadyNest Full Stack Development Internship – Week 2 Task**. It demonstrates the implementation of a modern, responsive, and scalable campus management application using industry-standard technologies.
 
-This project is developed for educational purposes as part of the ReadyNest Full Stack Program.
+If you found this project helpful, please ⭐ star the repository on GitHub!
