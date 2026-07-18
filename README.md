@@ -170,21 +170,6 @@ Backend : http://localhost:5000
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots of the following pages:
-
-- Login Page
-- Dashboard
-- Timetable
-- Attendance Tracker
-- Task Manager
-- Notes Section
-- Notice Board
-- Profile Page
-
----
-
 # 🎯 Future Improvements
 
 - AI Study Assistant
