@@ -102,3 +102,7 @@ GitHub: https://github.com/harshkumar6969
 ---
 
 ⭐ If you like this project, consider giving it a star on GitHub.
+
+
+📄 License
+This project is developed for educational purposes as part of the ReadyNest Full Stack Program.
